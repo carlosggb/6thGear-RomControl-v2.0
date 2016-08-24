@@ -27,15 +27,15 @@
 
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
     <string-array name="about_contact_us_text">
-        <item>Facebook</item>
-        <item>Our Site</item>
+        <item>Google</item>
+        <item>Our ROM Thread</item>
         <item>XDA</item>
     </string-array>
 
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
-        <item>https://www.facebook.com/</item>
         <item>https://www.google.com/</item>
+        <item>http://forum.xda-developers.com/note-4-sprint/development/rom-echoerom-v4-redemption-t3424993</item>
         <item>http://forum.xda-developers.com/</item>
     </string-array>
 
@@ -45,44 +45,35 @@
     <array name="about_team_drawables">
         <item>@drawable/icon_5</item>
         <item>@drawable/icon_6</item>
-        <item>@drawable/icon_1</item>
+        <item>@drawable/icon_8</item>
     </array>
     <string-array name="about_team_names">
-        <item>Master Yoda - wise and talented lead developer</item>
-        <item>Luke Skywalker - one handed theme master</item>
-        <item>Darth Vader - dark theme master</item>
+        <item>Carlosggb - Lead Rom Developer</item>
+        <item>Lexguy2007 - All Star Beta Tester</item>
+        <item>Jolly_roger_hook - All Star Beta Tester</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://forum.xda-developers.com/member.php?u=4904853/</item>
+        <item>http://forum.xda-developers.com/member.php?u=2370536/</item>
+        <item>http://forum.xda-developers.com/member.php?u=5808364/</item>
     </string-array>
-
-
-
     <!--Credits and thanks info arrays-->
     <array name="about_credits_drawables">
-        <item>@drawable/icon_1</item>
+        <item>@drawable/icon_7</item>
         <item>@drawable/icon_3</item>
-        <item>@drawable/icon_4</item>
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_5</item>
+        <item>@drawable/icon_3</item>
+        <item>@drawable/icon_3</item>
     </array>
     <string-array name="about_credits_names">
-        <item>Star Trek - for being ultimately better than Star Wars</item>
-        <item>Jean-Luc Picard - for making us crave hot earl-grey tea even in the middle of the summer</item>
-        <item>Data - for running on the best rom. Google, we still are waiting for THAT android version</item>
-        <item>Janeway - for being a normal person and drinking black coffee</item>
-        <item>Q - for reminding us that you can live forever and still look great</item>
-        <item>Worf - for teaching us to love Klingons. It was NOT easy</item>
+        <item>Kyri aka Friedrich420 - for being the one who pushed me to develop and give me the first boost with mods</item>
+        <item>tx_dbs_tx - for the base to start and for the help provided in the beginnings</item>
+        <item>topjohnwu - for running the show making Android Pay work on Rooted phones</item>
+        <item>daxgirl, wuby986, tdunham, asc1977, ikrom - for being TRUE developers creating magic for all of us!</item>
     </string-array>
     <string-array name="about_credits_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
+        <item>http://www.echoerom.com//</item>
+        <item>http://forum.xda-developers.com//</item>
         <item>http://forum.xda-developers.com/</item>
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://forum.xda-developers.com//</item>
     </string-array>
 </resources>

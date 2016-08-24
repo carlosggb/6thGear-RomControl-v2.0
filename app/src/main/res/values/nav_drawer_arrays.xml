@@ -25,9 +25,9 @@
     MAKE SURE THE ITEMS IN ALL 3 ARRAYS CORRESPOND IN ORDER AND ALL 3 ARRAYS ARE SAME LENGTH-->
     <array name="nav_menu_prefs_drawables">
         <item>@drawable/ic_system_ui</item>
-        <item>@drawable/ic_phone</item>
-        <item>@drawable/ic_framework</item>
         <item>@drawable/ic_notification_panel</item>
+        <item>@drawable/ic_framework</item>
+        <item>@drawable/ic_phone</item>
     </array>
 
 
