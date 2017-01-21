@@ -16,7 +16,10 @@
     xmlns:wubydax="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/tools">
     <PreferenceCategory
-        android:title="YOU MUST GO TO SYSTEMUI TAB AND RESTART LAUNCHER AFTER MAKING THE CHANGES">
+        android:title="RESTART LAUNCHER AFTER MAKING THE CHANGES">
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="RESTART LAUNCHER SWITCH IS AT SYSTEMUI TAB">
     </PreferenceCategory>
     <PreferenceCategory
         android:title="Gesture Setup">
@@ -60,5 +63,14 @@
            android:entryValues="@array/tw_effect_values"
            app:isSilent="false"
            app:packageNameToKill="com.android.systemui"/>
+
+    <PreferenceCategory android:title="Call Mods">
+     <com.wubydax.romcontrol.v2.prefs.MyListPreference
+         android:entries="@array/call_delay_entries"
+         android:title="End Call Delay"
+         android:key="db_call_delay"
+         android:defaultValue="2"
+         android:entryValues="@array/call_delay_values" />
+    </PreferenceCategory>
 
 </PreferenceScreen>

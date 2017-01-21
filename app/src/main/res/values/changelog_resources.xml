@@ -9,9 +9,9 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Rebranded from EchoeRom to Dtux Corp Rom</item>
-        <item>S6 SystemUI Implementation</item>
-        <item>Changed Touchwiz Launcher to updated version</item>
+        <item>Dtux Corp Rom</item>
+        <item>Theming SystemUI Implementation</item>
+        <item>PK1 Based</item>
         <item>Aroma Installation</item>
         <item>Rom Control v2 (Duh!)</item>
         <item>Read Full changelog at the Thread on XDA</item>
@@ -22,7 +22,7 @@
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">build v5.0 Dtux Corp Rom</string>
+    <string name="rom_version_for_changelog">build v7.2 Dtux Corp Rom</string>
 
 
 </resources>

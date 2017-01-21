@@ -35,7 +35,7 @@
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
         <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/note-4-sprint/development/rom-echoerom-v4-redemption-t3424993</item>
+        <item>http://forum.xda-developers.com/note-4-sprint/development/rom-dtuxrom-v5-redemption-t3424993</item>
         <item>http://forum.xda-developers.com/</item>
     </string-array>
 
@@ -44,18 +44,22 @@
     <!--Team info arrays-->
     <array name="about_team_drawables">
         <item>@drawable/icon_5</item>
-        <item>@drawable/icon_6</item>
+        <item>@drawable/icon_9</item>
         <item>@drawable/icon_8</item>
+        <item>@drawable/icon_6</item>
     </array>
     <string-array name="about_team_names">
         <item>Carlosggb - Lead Rom Developer</item>
-        <item>Lexguy2007 - All Star Beta Tester</item>
+        <item>13druber - Co-Developer</item>
         <item>Jolly_roger_hook - All Star Beta Tester</item>
+        <item>Lexguy2007 - All Star Beta Tester</item>
+
     </string-array>
     <string-array name="about_team_links" translatable="false">
         <item>http://forum.xda-developers.com/member.php?u=4904853/</item>
-        <item>http://forum.xda-developers.com/member.php?u=2370536/</item>
+        <item>http://forum.xda-developers.com/member.php?u=5594184/</item>
         <item>http://forum.xda-developers.com/member.php?u=5808364/</item>
+        <item>http://forum.xda-developers.com/member.php?u=2370536/</item>
     </string-array>
     <!--Credits and thanks info arrays-->
     <array name="about_credits_drawables">

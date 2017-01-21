@@ -28,6 +28,7 @@
         <item>@drawable/ic_notification_panel</item>
         <item>@drawable/ic_framework</item>
         <item>@drawable/ic_phone</item>
+        <item>@drawable/ic_system_ui</item>
     </array>
 
 
@@ -39,6 +40,7 @@
         <item>@string/phone_prefs</item>
         <item>@string/framework_prefs</item>
         <item>@string/notification_panel_prefs</item>
+        <item>@string/lock_prefs</item>
     </string-array>
 
 
@@ -51,5 +53,6 @@
         <item>phone_prefs</item>
         <item>framework_prefs</item>
         <item>notification_panel_prefs</item>
+        <item>lockscreen</item>
     </string-array>
 </resources>

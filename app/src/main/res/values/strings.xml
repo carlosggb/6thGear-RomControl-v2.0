@@ -45,9 +45,10 @@
     <string name="backup_file_suffix" translatable="false">_RCBackup</string>
     <string name="restore_complete_toast">Restore complete</string>
     <string name="systemui_prefs">SystemUI prefs</string>
-    <string name="phone_prefs">TWLauncher prefs</string>
+    <string name="phone_prefs">TWLauncher+Phone</string>
     <string name="framework_prefs">Mods Central</string>
     <string name="notification_panel_prefs">Theming prefs</string>
+    <string name="lock_prefs">Lockscreen prefs</string>
     <string name="more_options">More options</string>
     <string name="set_theme">Set theme</string>
     <string name="backup_and_restore"><![CDATA[Backup & Restore]]></string>
@@ -62,6 +63,33 @@
     <string name="reboot_later_negative_button">later</string>
     <string name="reboot_now_dialog_button">reboot now</string>
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
+    <string name="lockscreen_city_weather_text_color_title">Lockscreen city weather text color</string>
+    <string name="lockscreen_city_weather_text_color_summary">Change lockscreen city weather text color</string>
+    <string name="lockscreen_temp_weather_text_color_title">Lockscreen temp weather text color</string>
+    <string name="lockscreen_temp_weather_text_color_summary">Change lockscreen temp weather text color</string>
+    <string name="lockscreen_weather_text_color_title">Lockscreen weather text color</string>
+    <string name="lockscreen_weather_text_color_summary">Change lockscreen weather text color</string>
+    <string name="lockscreen_alarm_text_color_title">Lockscreen alarm text color</string>
+    <string name="lockscreen_alarm_text_color_summary">Change lockscreen alarm text color</string>
+    <string name="lockscreen_owner_text_color_title">Lockscreen owner text color</string>
+    <string name="lockscreen_owner_text_color_summary">Change lockscreen owner text color</string>
+    <string name="lockscreen_degree_weather_text_color_title">Lockscreen degree weather text color</string>
+    <string name="lockscreen_degree_weather_text_color_summary">Change lockscreen degree weather text color</string>
+    <string name="lockscreen_max_temp_weather_text_color_title">Lockscreen max temp weather text color</string>
+    <string name="lockscreen_max_temp_weather_text_color_summary">Change lockscreen max temp weather text color</string>
+    <string name="lockscreen_min_temp_weather_text_color_title">Lockscreen min temp weather text color</string>
+    <string name="lockscreen_min_temp_weather_text_color_summary">Change lockscreen min temp weather text color</string>
+    <string name="lockscreen_sunrise_text_color_title">Lockscreen sunrise text color</string>
+    <string name="lockscreen_sunrise_text_color_summary">Change lockscreen sunrise text color</string>
+    <string name="lockscreen_sunset_text_color_title">Lockscreen sunset text color</string>
+    <string name="lockscreen_sunset_text_color_summary">Change lockscreen sunset text color</string>
+    <string name="lockscreen_barometer_text_color_title">Lockscreen barometer text color</string>
+    <string name="lockscreen_barometer_text_color_summary">Change barometer text color</string>
+    <string name="lockscreen_show_pressure_title">Lockscreen show pressure</string>
+    <string name="summaryOn">Enabled</string>
+    <string name="summaryOff">Disabled</string>
+    <string name="show_icon_on">Show</string>
+    <string name="show_icon_off">Hide</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

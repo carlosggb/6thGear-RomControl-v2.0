@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--/*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="Lockscreen Mods">
+
+
+        <PreferenceScreen
+            android:title="Extended Lockscreen Weather">
+
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/weather_addon_entries"
+                android:title="Weather Addons"
+                android:key="weather_addons"
+                android:summary="%s"
+                android:entryValues="@array/weather_addon_values" />
+
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Weather Widget"
+                android:key="weather_widget"
+                android:summaryOn="Hide"
+                android:summaryOff="Show"
+                android:defaultValue="true" />
+
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Sunrise Sunset Info"
+                android:key="sunrise_sunset"
+                android:summaryOn="Hide"
+                android:summaryOff="Show" />
+
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:title="@string/lockscreen_barometer_text_color_title"
+                android:key="lockscreen_barometer_text_color"
+                android:summary="@string/lockscreen_barometer_text_color_summary"
+                android:defaultValue="#ffffffff" />
+
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:title="@string/lockscreen_city_weather_text_color_title"
+                android:key="lockscreen_city_weather_text_color"
+                android:summary="@string/lockscreen_city_weather_text_color_summary"
+                android:defaultValue="#ffffffff" />
+
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:title="@string/lockscreen_temp_weather_text_color_title"
+                android:key="lockscreen_temp_weather_text_color"
+                android:summary="@string/lockscreen_temp_weather_text_color_summary"
+                android:defaultValue="#ffffffff" />
+
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:title="@string/lockscreen_degree_weather_text_color_title"
+                android:key="lockscreen_degree_weather_text_color"
+                android:summary="@string/lockscreen_degree_weather_text_color_summary"
+                android:defaultValue="#ffffffff" />
+
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:title="@string/lockscreen_max_temp_weather_text_color_title"
+                android:key="lockscreen_max_temp_weather_text_color"
+                android:summary="@string/lockscreen_max_temp_weather_text_color_summary"
+                android:defaultValue="#ffffffff" />
+
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:title="@string/lockscreen_min_temp_weather_text_color_title"
+                android:key="lockscreen_min_temp_weather_text_color"
+                android:summary="@string/lockscreen_min_temp_weather_text_color_summary"
+                android:defaultValue="#ffffffff" />
+
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:title="@string/lockscreen_sunrise_text_color_title"
+                android:key="lockscreen_sunrise_text_color"
+                android:summary="@string/lockscreen_sunrise_text_color_summary"
+                android:defaultValue="#ffffffff" />
+
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:title="@string/lockscreen_sunset_text_color_title"
+                android:key="lockscreen_sunset_text_color"
+                android:summary="@string/lockscreen_sunset_text_color_summary"
+                android:defaultValue="#ffffffff" />
+
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:title="@string/lockscreen_weather_text_color_title"
+                android:key="lockscreen_weather_text_color"
+                android:summary="@string/lockscreen_weather_text_color_summary"
+                android:defaultValue="#ffffffff" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+</PreferenceScreen>
